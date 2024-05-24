@@ -26,7 +26,7 @@
         margin: 0;
       }
       nav {
-        background: #333;
+        background: #6171e4;
       }
       .NavBar {
         display: flex;
@@ -154,6 +154,16 @@
       }
 
       /* Profile Card CSS */
+      .profile-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center; 
+
+
+
+
+      }
       .profile-card {
         background: white;
         border: 1px solid #ddd;
@@ -163,6 +173,7 @@
         max-width: 600px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         text-align: center;
+        border-radius: 20px;
       }
 
       .profile-card img {
@@ -185,6 +196,7 @@
     </style>
   </head>
   <body>
+    </div>
     <header>
       <h1>Team A's Profile Cards</h1>
     </header>
@@ -198,6 +210,7 @@
         </ul>
       </div>
     </nav>
+    <div class="profile-container">
     <div class="profile-card">
       <img
         src="https://picsum.photos/100"
@@ -206,8 +219,8 @@
       />
       <h3>Amir Banks</h3>
       <p>
-        Amir is a passionate web developer with expertise in creating
-        user-friendly interfaces and engaging web experiences.
+        Amir is an eager full stack developer with expertise in creating
+        user-friendly interfaces and immersive programs.
       </p>
     </div>
     <!--added my own profile pic-->
@@ -253,6 +266,19 @@
           <h3>Contact</h3>
           <!-- added our email addresses with a tag with in p tag -->
           <p>
+            <div class="dropdown">
+  <button class="dropbtn">Contact Us</button>
+  <div class="dropdown-content">
+     <a href="mailto:ariana.simon@seattlecolleges.edu"
+              >ariana.simon@seattlecolleges.edu</a
+            >
+    <a href="mailto:amir.banks@seattlecolleges.edu"
+              >amir.banks@seattlecolleges.edu</a
+            >
+    
+  </div>
+</div>
+            
             Email:
             <a href="mailto:ariana.simon@seattlecolleges.edu"
               >ariana.simon@seattlecolleges.edu</a

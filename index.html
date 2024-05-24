@@ -8,6 +8,16 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!--This is link for the facebook, instagram and twitter icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!--This is link for email icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <style>
       body {
         font-family: "Open Sans", sans-serif;
@@ -114,14 +124,28 @@
         color: #ffff99;
         font-size: 14px;
       }
-      .footer-section p a {
-        color: white; /*change the color of the email to white*/
+      footer-section a {
+        text-decoration: none;
+        color: #cac2c2;
+        transition: color 0.3s ease;
       }
 
-      .footer-section p a:hover {
-        color: #6699cc; /* Change color on hover */
+      .footer-section a:hover {
+        color: transparent;
       }
 
+      .footer-section a:hover i {
+        color: transparent;
+      }
+      /* This is for the icons */
+      .footer-section i {
+        margin-right: 8px;
+        color: lightblue;
+      }
+      .email {
+        color: lightblue;
+        transition: color 0.3s ease;
+      }
       .footer-section p,
       .footer-section li a {
         color: #cccccc;
@@ -129,18 +153,27 @@
       }
 
       .footer-section ul {
-        list-style-type: none;
+        list-style: none;
         padding: 0;
       }
 
-      .footer-section li a {
-        text-decoration: none;
-        color: inherit;
-        transition: color 0.3s;
+      .footer-section ul li {
+        display: inline-block;
+        margin-right: 15px;
       }
 
-      .footer-section li a:hover {
-        color: #ffffff;
+      .footer-section ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+      }
+
+      .footer-section ul li a i {
+        margin-right: 8px;
+      }
+
+      .footer-section ul li a:hover {
+        color: #007bff;
       }
 
       .footer-bottom {
@@ -262,29 +295,38 @@
           <!-- added our email addresses with a tag with in p tag -->
           <p>
             Email:
-            <a href="mailto:ariana.simon@seattlecolleges.edu"
-              >ariana.simon@seattlecolleges.edu</a
-            >
+            <a href="mailto:ariana.simon@seattlecolleges.edu">
+              <i class="fas fa-envelope"></i
+              ><span class="email"> ariana.simon@seattlecolleges.edu</span>
+            </a>
           </p>
           <p>
             Email:
-            <a href="mailto:amir.banks@seattlecolleges.edu"
-              >amir.banks@seattlecolleges.edu</a
-            >
+            <a href="mailto:amir.banks@seattlecolleges.edu">
+              <i class="fas fa-envelope"></i
+              ><span class="email"> amir.banks@seattlecolleges.edu</span>
+            </a>
           </p>
           <p>
             Email:
-            <a href="mailto:abdi.Deresa@seattlecolleges.edu"
-              >abdi.Deresa@seattlecolleges.edu</a
-            >
+            <a href="mailto:abdi.Deresa@seattlecolleges.edu">
+              <i class="fas fa-envelope"></i
+              ><span class="email"> abdi.Deresa@seattlecolleges.edu</span>
+            </a>
           </p>
         </div>
         <div class="footer-section">
           <h3>Follow Us</h3>
           <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
           </ul>
         </div>
       </div>

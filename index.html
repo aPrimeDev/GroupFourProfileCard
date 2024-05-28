@@ -102,90 +102,95 @@
       }
 
       /* Footer CSS */
-      footer {
-        background-color: #333;
-        color: #ffffff;
-        text-align: center;
-        padding: 10px;
-        font-size: 12px;
-      }
+      /* Footer CSS */
+footer {
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  width: 100%;
+}
 
-      .footer-content {
-        display: flex;
-        justify-content: space-around;
-        padding: 10px;
-      }
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
 
-      .footer-section {
-        margin: 5px;
-      }
+.footer-section {
+  margin: 10px;
+  flex: 1;
+  min-width: 200px;
+}
 
-      .footer-section h3 {
-        color: #ffff99;
-        font-size: 14px;
-      }
-      footer-section a {
-        text-decoration: none;
-        color: #cac2c2;
-        transition: color 0.3s ease;
-      }
+.footer-section h3 {
+  color: #ffff99;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
 
-      .footer-section a:hover {
-        color: transparent;
-      }
+.footer-section p,
+.footer-section li a {
+  color: #cccccc;
+  font-size: 14px;
+}
 
-      .footer-section a:hover i {
-        color: transparent;
-      }
-      /* This is for the icons */
-      .footer-section i {
-        margin-right: 8px;
-        color: lightblue;
-      }
-      .email {
-        color: lightblue;
-        transition: color 0.3s ease;
-      }
-      .footer-section p,
-      .footer-section li a {
-        color: #cccccc;
-        font-size: 12px;
-      }
+.footer-section a {
+  text-decoration: none;
+  color: #cac2c2;
+  transition: color 0.3s ease;
+}
 
-      .footer-section ul {
-        list-style: none;
-        padding: 0;
-      }
+.footer-section a:hover {
+  color: #007bff;
+}
 
-      .footer-section ul li {
-        display: inline-block;
-        margin-right: 15px;
-      }
+.footer-section a i {
+  margin-right: 8px;
+  color: lightblue;
+}
 
-      .footer-section ul li a {
-        text-decoration: none;
-        color: #000;
-        font-size: 16px;
-      }
+.footer-section .email {
+  color: lightblue;
+}
 
-      .footer-section ul li a i {
-        margin-right: 8px;
-      }
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-      .footer-section ul li a:hover {
-        color: #007bff;
-      }
+.footer-section ul li {
+  margin-bottom: 10px;
+}
 
-      .footer-bottom {
-        margin-top: 10px;
-        border-top: 1px solid #444;
-        padding-top: 5px;
-      }
+.footer-section ul li a {
+  text-decoration: none;
+  color: #cac2c2;
+  font-size: 14px;
+}
 
-      .footer-bottom p {
-        margin: 0;
-      }
+.footer-section ul li a:hover {
+  color: #007bff;
+}
 
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 12px;
+}
+
+/* Icon color adjustment */
+.footer-section i:hover {
+  color: #007bff;
+}
       /* Profile Card CSS */
       .profile-container {
         display: flex;
@@ -292,7 +297,6 @@
       <div class="footer-content">
         <div class="footer-section">
           <h3 id="about">About Us</h3>
-          <!--wrote about us a year up student at seattle central college-->
           <p>
             As an emerging tech team, we're refining our expertise within the
             dynamic training program offered by Year Up's.
@@ -300,32 +304,19 @@
         </div>
         <div class="footer-section">
           <h3 id="contact">Contact</h3>
-          <!-- added our email addresses with a tag with in p tag -->
-          <p>
-            <div class="dropdown">
-  
-  <div class="dropdown-content">
-  </div>
-</div>
-            <p>
-            Email:
+          <p>Email:
             <a href="mailto:ariana.simon@seattlecolleges.edu">
-              <i class="fas fa-envelope"></i
-              ><span class="email"> ariana.simon@seattlecolleges.edu</span>
+              <i class="fas fa-envelope"></i><span class="email"> ariana.simon@seattlecolleges.edu</span>
             </a>
           </p>
-          <p>
-            Email:
+          <p>Email:
             <a href="mailto:amir.banks@seattlecolleges.edu">
-              <i class="fas fa-envelope"></i
-              ><span class="email"> amir.banks@seattlecolleges.edu</span>
+              <i class="fas fa-envelope"></i><span class="email"> amir.banks@seattlecolleges.edu</span>
             </a>
           </p>
-          <p>
-            Email:
+          <p>Email:
             <a href="mailto:abdi.Deresa@seattlecolleges.edu">
-              <i class="fas fa-envelope"></i
-              ><span class="email"> abdi.Deresa@seattlecolleges.edu</span>
+              <i class="fas fa-envelope"></i><span class="email"> abdi.Deresa@seattlecolleges.edu</span>
             </a>
           </p>
         </div>
